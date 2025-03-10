@@ -50,7 +50,7 @@ export default function App({ Component, pageProps }) {
 
 				<meta property="twitter:image" content={avatar} />
 				<meta property="twitter:card" content="summary_large_image" />
-			//	<meta name="twitter:creator" content="@Shivam_1_Sharma" />
+				{/* <meta name="twitter:creator" content="@Shivam_1_Sharma" /> */}
 				<meta property="twitter:title" content={title} />
 				<meta property="twitter:description" content={description} />
 
@@ -65,13 +65,7 @@ export default function App({ Component, pageProps }) {
 					type="image/png"
 					sizes="32x32"
 					href="/assets/icons/favicon/favicon-32x32.png"
-				/>
-				<link
-					rel="icon"
-					type="image/png"
-					sizes="16x16"
-					href="/assets/icons/favicon/favicon-16x16.png"
-				/>
+				/> 
 				<link
 					rel="manifest"
 					href="/assets/icons/favicon/site.webmanifest"
@@ -80,7 +74,7 @@ export default function App({ Component, pageProps }) {
 
 			<ThemeProvider attribute="class" defaultTheme="dark">
 				<Component {...pageProps} loading={loading} />
-                <Analytics />
+				<Analytics />
 				{loading && <PreLoader />}
 			</ThemeProvider>
 		</>

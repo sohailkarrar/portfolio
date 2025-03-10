@@ -565,7 +565,7 @@ const socials = [
   {
     id: "linkedin",
     icon: <LinkedInIcon />,
-    link: "https://www.linkedin.com/in/https://www.linkedin.com/in/syedsohailkarar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    link: "https://www.linkedin.com/in/syedsohailkarar/",
   },
   {
     id: "x",

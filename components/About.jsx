@@ -28,20 +28,19 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
         <div>
-         Hello! I'm Syed Suhail Karrar, a passionate content creator and technology enthusiast.
-        Currently, I'm the founder of Digital Empowerment Network, where I work on empowering 
-        individuals through technology and innovation.  
-        I'm pursuing a degree in Computer Science, majoring in Full-Stack Development, equipping
-         myself with expertise in modern web technologies and software development. I have one year
-        of experience in video editing and three years in event management, allowing me to create
-        engaging content and organize impactful events.  
+          Hello! I&apos;m Syed Suhail Karrar, a passionate content creator and technology enthusiast.
+          Currently, I&apos;m the founder of Digital Empowerment Network, where I work on empowering
+          individuals through technology and innovation. I&apos;m pursuing a degree in Computer Science,
+          majoring in Full-Stack Development, equipping myself with expertise in modern web technologies
+          and software development. I have one year of experience in video editing and three years in
+          event management, allowing me to create engaging content and organize impactful events.
 
-        I'm also a Beta Microsoft Learn Student Ambassador, actively contributing to the tech community.
-        Additionally, I am deeply involved in volunteer work, collaborating with various national and 
-         international organizations to drive meaningful change.  
+          I&apos;m also a Beta Microsoft Learn Student Ambassador, actively contributing to the tech community.
+          Additionally, I am deeply involved in volunteer work, collaborating with various national and
+          international organizations to drive meaningful change.
 
-I       specialize in drone flying, video editing, and full-stack development, leveraging my skills to create
-        immersive digital experiences. 
+          I specialize in drone flying, video editing, and full-stack development, leveraging my skills to create
+          immersive digital experiences.
           <br className="sm:block hidden" />
           Let&apos;s collaborate to bring your ideas to life!
         </div>
