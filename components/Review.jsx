@@ -4,8 +4,7 @@ import Image from "next/image";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import { motion } from "framer-motion";
+} from "react-vertical-timeline-component"; 
 
 import "react-vertical-timeline-component/style.min.css";
 
@@ -84,10 +83,10 @@ function Review() {
   }
 
   return (
-    <motion.section className="w-full p-8 mt-20">
-      <motion.div variants={textVariant()}> 
+    <div className="w-full p-8 mt-20">
+      <div variants={textVariant()}> 
         <h2 className={`sectionHeadText text-center`}>Reviews</h2>
-      </motion.div>
+      </div>
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline lineColor={theme === "dark" ? "#7e8c9f" : "#8c9db1"}>
@@ -100,7 +99,7 @@ function Review() {
           ))}
         </VerticalTimeline>
       </div>
-    </motion.section>
+    </div>
   );
 }
 

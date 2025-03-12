@@ -1,6 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
-import { motion } from "framer-motion";
+import Link from "next/link"; 
 
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "@/utils/motion";
@@ -53,7 +52,7 @@ function Tech() {
   const skillsList = skillCategories.map((category, index) => (
     <div className="w-full h-fit flex gap-2 md:flex-row flex-col" key={index}>
       <h3 className="md:hidden">{skillVariants[index]}</h3>
-      <motion.div
+      <div
         className="w-full flex flex-row flex-wrap gap-2"
         variants={fadeIn("right", "spring", 0.75)}
         initial="hidden"
@@ -81,7 +80,7 @@ function Tech() {
             </div>
           </Link>
         ))}
-      </motion.div>
+      </div>
     </div>
   ));
 
@@ -93,7 +92,7 @@ function Tech() {
 
   return (
     <section className="w-full h-fit p-8 mt-20" id="skills">
-      <motion.div
+      <div
         variants={textVariant()}
         initial="hidden"
         whileInView="show"
@@ -102,16 +101,16 @@ function Tech() {
       >
         <p className={"sectionSubText"}>What I have mastered so far</p>
         <h2 className={"sectionHeadText"}>Video Editing Skills.</h2>
-      </motion.div>
+      </div>
 
-      <motion.div
+      <div
         variants={fadeIn("", "", 0.1, 1)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
         className="mt-4 dark:text-ctnSecondaryDark text-ctnSecondaryLight dark:bg-bgSecondaryDark bg-bgSecondaryLight text-[17px] md:w-fit md:min-w-[60%] w-full h-full leading-[30px] flex md:flex-row flex-col gap-4 p-8 md:px-16 mx-auto rounded-lg justify-between backdrop-filter backdrop-blur-xl bg-opacity-10 shadow-sm shadow-primary"
       >
-        <motion.div
+        <div
           variants={textVariant()}
           initial="hidden"
           whileInView="show"
@@ -119,12 +118,12 @@ function Tech() {
           className="flex flex-col justify-between h-full gap-5"
         >
           {skillNames}
-        </motion.div>
+        </div>
         <div className="w-[2px] h-[400px] dark:bg-ctnSecondaryDark bg-ctnSecondaryLight rounded-lg md:flex hidden mx-8" />
         <div className="md:w-[80%] w-full pl-2 h-full flex flex-col gap-8">
           {skillsList}
         </div>
-      </motion.div>
+      </div>
     </section>
   );
 }

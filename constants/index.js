@@ -259,19 +259,6 @@ const experiences = [
       "Integrated motion graphics and smooth transitions to improve storytelling and audience engagement."
     ]
   },
-  // {
-  //   title: "Frontend Developer",
-  //   company_name: "Tech team member at GDSC MVJCE",
-  //   icon: "/assets/company/gdsc-logo.svg",
-  //   iconBg: "#E6DEDD",
-  //   date: "February 2022 - July 2023",
-  //   points: [
-  //     "Successfully planned and executed induction programs, providing new members with crucial information about the organization's goals and values.",
-  //     "Demonstrated web development expertise by conducting CSS workshops, equipping participants with practical web design and styling skills.",
-  //     "Played a crucial role in promoting GDSC events and actively collaborated with cross-functional teams to deliver high-quality projects, fostering teamwork and innovation.",
-  //     "Actively engaged with the GDSC community, assisted in workshops, and contributed to planning and managing GDSC events, ensuring their success and growth.",
-  //   ],
-  // },
 ];
 
 const reviews = [
@@ -448,93 +435,18 @@ const projects = [
     deployed_link:
       "https://github.com/Shivam-Sharma-1/Facility-Management-System?tab=readme-ov-file#demo",
   },
-  // {
-  //   name: "Netflix Clone",
-  //   description:
-  //     "Netflix-Clone is a fully responsive web application that replicates the popular streaming platform Netflix. It is built using Next.js, Prisma, React, NextAuth.js, Tailwind CSS, MongoDB and TypeScript. This project aims to showcase the implementation of these technologies to create a feature-rich clone of Netflix.",
-  //   tags: [
-  //     {
-  //       name: "next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "typescript",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "orange-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/netflix-clone.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Netflix-Clone.git",
-  //   deployed_link: "https://netflix-clone12345.vercel.app",
-  // },
-  // {
-  //   name: "Van-Life",
-  //   description:
-  //     "VanLife is a user-friendly website built with React that simplifies van searches. It is a web app used to browse different types of vans. It allows users to log in and offers convenient tag-based filtering for easy browsing.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mirage.js",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "firebase-firestore",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/vanlife.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Van-Life.git",
-  //   deployed_link: "https://myvanlife.netlify.app",
-  // },
-  // {
-  // 	name: "Spooky-Run",
-  // 	description:
-  // 		"Spooky Run is a web based 2D arcade style game that allows players to play as a lost dog finding its way back home through a spooky forest. The game is built using vanilla JavaScript and utilizes HTML5 and the 'canvas' element to render graphics and handle user input.",
-  // 	tags: [
-  // 		{
-  // 			name: "html5",
-  // 			color: "blue-text-gradient"
-  // 		},
-  // 		{
-  // 			name: "css3",
-  // 			color: "green-text-gradient"
-  // 		},
-  // 		{
-  // 			name: "javascript",
-  // 			color: "pink-text-gradient"
-  // 		}
-  // 	],
-  // 	image: "/assets/projects/spooky-run.png",
-  // 	source_code_link: "https://github.com/Shivam-Sharma-1/Spooky-Run.git",
-  // 	deployed_link: "https://shivam-sharma-1.github.io/Spooky-Run"
-  // }
 ];
 
 const reels = [
   {
     name: "Reel 1",
     url:
-      "assets/reels/reel1.mp4",
+      "https://drive.google.com/file/d/1Q9ZX163BxMhkwHAm2FL7Q3sia5uC0RDr/preview",
   },
   {
     name: "Reel 1",
     url:
-      "assets/reels/reel1.mp4",
-  },
-  {
-    name: "Reel 1",
-    url:
-      "assets/reels/reel1.mp4",
+      "https://drive.google.com/file/d/1Q9ZX163BxMhkwHAm2FL7Q3sia5uC0RDr/preview",
   },
 ];
 

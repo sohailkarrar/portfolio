@@ -1,6 +1,4 @@
-import React, { useRef, useState } from "react";
-import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
+import React, { useRef, useState } from "react";  
 import DOMPurify from "dompurify";
 import { slideIn } from "../utils/motion";
 
@@ -75,7 +73,7 @@ function Contact() {
   };
 
   return (
-    <motion.div
+    <div
       variants={slideIn("left", "tween", 0.2, 1)}
       initial="hidden"
       whileInView="show"
@@ -139,7 +137,7 @@ function Contact() {
           {loading ? "Sending..." : "Send"}
         </button>
       </form>
-    </motion.div>
+    </div>
   );
 }
 

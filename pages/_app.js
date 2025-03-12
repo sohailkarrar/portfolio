@@ -1,11 +1,8 @@
-import { Analytics } from '@vercel/analytics/react';
 import { ThemeProvider } from "next-themes";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 
-import "@/styles/globals.css";
-
-import { PreLoader } from "@/components/Loader";
+import "@/styles/globals.css"; 
 
 export default function App({ Component, pageProps }) {
 	const [loading, setLoading] = useState(true);
@@ -28,7 +25,6 @@ export default function App({ Component, pageProps }) {
 		"Hello! I'm Syed Suhail Karrar, a passionate video editor and creative storyteller. Welcome to my portfolio!";
 	const avatar =
 		"https://res.cloudinary.com/dyle3hnpw/image/upload/v1696091629/portfolio/WhatsApp_Image_2023-09-30_at_10.02.55_PM_jk44v9.jpg";
-	const url = "https://shivam-sharma-myportfolio.vercel.app/";
 
 	return (
 		<>
@@ -44,17 +40,15 @@ export default function App({ Component, pageProps }) {
 				<meta property="og:description" content={description} />
 				<meta property="og:image" content={avatar} />
 				<meta property="og:image:width" content="612" />
-				<meta property="og:image:height" content="612" />
-				<meta property="og:url" content={url} />
+				<meta property="og:image:height" content="612" /> 
 				<meta property="og:type" content="website" />
 
 				<meta property="twitter:image" content={avatar} />
-				<meta property="twitter:card" content="summary_large_image" />
-				{/* <meta name="twitter:creator" content="@Shivam_1_Sharma" /> */}
+				<meta property="twitter:card" content="summary_large_image" /> 
 				<meta property="twitter:title" content={title} />
 				<meta property="twitter:description" content={description} />
 
-				<link rel="canonical" href={url} />
+				
 				<link
 					rel="apple-touch-icon"
 					sizes="180x180"
@@ -73,9 +67,7 @@ export default function App({ Component, pageProps }) {
 			</Head>
 
 			<ThemeProvider attribute="class" defaultTheme="dark">
-				<Component {...pageProps} loading={loading} />
-				<Analytics />
-				{loading && <PreLoader />}
+				<Component {...pageProps} loading={loading} /> 
 			</ThemeProvider>
 		</>
 	);

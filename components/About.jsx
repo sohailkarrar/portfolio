@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { motion } from "framer-motion";
+import Link from "next/link"; 
 
 import { socials } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -11,7 +10,7 @@ function About() {
       className="md:my-36 md:w-2/3 w-full h-full xl:ml-36 lg:ml-12 p-8 md:mt-[40svh] xl:mt-[150px]"
       id="about"
     >
-      <motion.div
+      <div
         variants={textVariant()}
         initial="hidden"
         whileInView="show"
@@ -19,8 +18,8 @@ function About() {
       >
         <p className={"sectionSubText text-gray-300"}>Introduction</p>
         <h2 className={"sectionHeadText text-white"}>Overview.</h2>
-      </motion.div>
-      <motion.div
+      </div>
+      <div
         variants={fadeIn("", "", 0.1, 1)}
         initial="hidden"
         whileInView="show"
@@ -87,7 +86,7 @@ function About() {
             </div>
           </div>
         </Link>
-      </motion.div>
+      </div>
     </section>
   );
 }

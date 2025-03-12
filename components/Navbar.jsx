@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -112,7 +111,7 @@ function Navbar() {
 							)}
 						</div>
 
-						<motion.div
+						<div
 							variants={slideIn("right", "tween", 0, 0.3)}
 							initial="hidden"
 							whileInView="show"
@@ -143,7 +142,7 @@ function Navbar() {
 									<ThemeButton />
 								</li>
 							</ul>
-						</motion.div>
+						</div>
 					</div>
 				</div>
 			</nav>

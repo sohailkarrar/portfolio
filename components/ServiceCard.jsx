@@ -1,11 +1,10 @@
-import Tilt from "react-parallax-tilt";
-import { motion } from "framer-motion";
+import Tilt from "react-parallax-tilt"; 
 import { fadeIn } from "@/utils/motion";
 
 function ServiceCard({ index, title, icon }) {
   return (
     <Tilt className="w-[250px]" tiltMaxAngleX="10" tiltMaxAngleY="10">
-      <motion.div
+      <div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
         initial="hidden"
         whileInView="show"
@@ -25,7 +24,7 @@ function ServiceCard({ index, title, icon }) {
             {title}
           </h3>
         </div>
-      </motion.div>
+      </div>
     </Tilt>
   );
 }

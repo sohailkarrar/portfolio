@@ -6,14 +6,11 @@ import {
   Experience,
   Hero,
   Navbar,
-  Review,
-  StarsCanvas,
+  Review, 
   Tech,
   Works,
 } from "@/components";
-import HeroBackground from "@/components/HeroBackground";
-import EarthContainer from "@/components/EarthContainer";
-import PlayerContainer from "@/components/PlayerContainer";
+import HeroBackground from "@/components/HeroBackground";  
 import UpArrow from "./../public/assets/icons/up-arrow.svg";
 import Services from "@/components/Services";
 
@@ -48,7 +45,7 @@ function App({ loading }) {
       </div>
       <section className="relative z-0 flex md:flex-row flex-col-reverse w-full h-full overflow-hidden">
         <About />
-        {!isMobile && <PlayerContainer isMobile={isMobile} />}
+         
       </section>
       <Services />
       <Experience />
@@ -57,9 +54,7 @@ function App({ loading }) {
       <Review />
       {/* <Feedbacks /> */}
       <section className="relative z-0 flex md:flex-row justify-between flex-col-reverse w-full h-full overflow-x-hidden sm:p-8 p-2 pb-8">
-        <Contact />
-        <EarthContainer isMobile={isMobile} />
-        <StarsCanvas />
+        <Contact />  
       </section>
       <button
         onClick={() => {

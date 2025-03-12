@@ -1,7 +1,4 @@
-import { motion } from "framer-motion";
-import { TypeAnimation } from "react-type-animation";
 
-import { ComputersCanvas } from "./canvas";
 import { fadeIn, textVariant } from "@/utils/motion";
 import { heroTexts } from "@/constants";
 
@@ -18,41 +15,30 @@ function Hero({ loading, isMobile }) {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
-        <motion.div
-          variants={textVariant()}
-          initial="hidden"
-          whileInView={!loading && "show"}
-          viewport={{ once: true, amount: 0.25 }}
+        <div
         >
           <h1 className={`heroHeadText`}>
             Hi, I&apos;m{" "}
             <span className="dark:text-five text-primary">Sohail</span>
           </h1>
           <p className={`heroSubText mt-2 tracking-wide`}>
-            <TypeAnimation
-              sequence={heroTexts}
-              // preRenderFirstString={true}
-              wrapper="span"
-              cursor={true}
-              repeat={Infinity}
-            />
+            
           </p>
-        </motion.div>
+        </div>
       </div>
-      <motion.div
+      <div
         variants={fadeIn("up", "spring")}
         initial="hidden"
         whileInView={!loading && "show"}
         viewport={{ once: true, amount: 0.25 }}
         className="w-full md:h-[800px] sm:h-[300px] h-[200px] absolute md:top-[170px] sm:top-[280px] top-[350px]"
       >
-        <ComputersCanvas isMobile={isMobile} />
-      </motion.div>
+      </div>
 
       <div className="absolute xs:bottom-10 bottom-32 left-1/2 justify-center items-center z-20 hidden md:flex">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-2 border-[#aaa6c3] flex justify-center items-start p-2">
-            <motion.div
+            <div
               animate={{
                 y: [0, 24, 0],
               }}
