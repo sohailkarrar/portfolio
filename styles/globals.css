@@ -99,6 +99,9 @@ body {
   overflow-y: hidden;
   overflow-x: hidden;
 }
+.cld-video-player {
+  height: 100% !important;
+}
 
 svg {
   width: 100%;

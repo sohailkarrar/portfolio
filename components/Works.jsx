@@ -1,11 +1,10 @@
 import React from "react";
 import Tilt from "react-parallax-tilt"; 
-import Image from "next/image";
-
-import { projects } from "../constants";
+import { CldVideoPlayer } from "next-cloudinary";
 import { reels } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion"; 
 import { videos } from "../constants";
+// import 'next-cloudinary/dist/cld-video-player.css';
 
 const ReelsCard = function ({ index, url }) {
   return (
@@ -17,20 +16,13 @@ const ReelsCard = function ({ index, url }) {
       <div className="relative w-full h-full">
         {/* Container with aspect ratio and overflow control */}
         <div
-          className="w-full h-full relative overflow-hidden"
-          style={{ borderRadius: "1rem" , height: "58vh !important" }}
+          className="w-full relative overflow-hidden"
+          style={{ 
+            borderRadius: "1rem", // 16:9 aspect ratio (9 / 16 * 100)
+          }}
         >
           {/* Google Drive embed iframe */}
-          <iframe style={{
-            borderRadius: "1rem",
-            height: "58vh !important",
-          }}
-            src={url}
-            className="absolute top-0 left-0 w-full h-full border-none"
-            allow="autoplay; fullscreen"
-            // Optional: Add a placeholder or loading state
-            loading="lazy"
-          />
+          <CldVideoPlayer style={{height:'31rem'}} width="1080" height="1650" src="qcnzx7oiy13azxvkcvwm" />
         </div>
       </div>
     </Tilt>

@@ -441,7 +441,12 @@ const reels = [
   {
     name: "Reel 1",
     url:
-      "https://drive.google.com/file/d/1Q9ZX163BxMhkwHAm2FL7Q3sia5uC0RDr/preview",
+      "https://asset.cloudinary.com/dluwhhwoi/88e46e6bab4c8401034d489954710d09",
+  },
+  {
+    name: "Reel 1",
+    url:
+      "https://drive.google.com/file/d/17UCttLWYu60KmkAwWBRetKw2d6YiT0il/preview",
   },
   {
     name: "Reel 1",
