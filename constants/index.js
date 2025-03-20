@@ -441,17 +441,17 @@ const reels = [
   {
     name: "Reel 1",
     url:
-      "https://asset.cloudinary.com/dluwhhwoi/88e46e6bab4c8401034d489954710d09",
+      "6_q0emqk",
   },
   {
-    name: "Reel 1",
+    name: "Reel 2",
     url:
-      "https://drive.google.com/file/d/17UCttLWYu60KmkAwWBRetKw2d6YiT0il/preview",
+      "1_pfpyeo",
   },
   {
-    name: "Reel 1",
+    name: "Reel 3",
     url:
-      "https://drive.google.com/file/d/1Q9ZX163BxMhkwHAm2FL7Q3sia5uC0RDr/preview",
+      "11_tszwhm",
   },
 ];
 
@@ -459,7 +459,7 @@ const videos = [
   {
     name: "Video 1",
     url:
-      "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
+      "C_qlvco6",
   },
   {
     name: "Video 2",
@@ -469,7 +469,7 @@ const videos = [
   {
     name: "Video 3",
     url:
-      "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
+      "E_dseow8",
   },
 ];
 

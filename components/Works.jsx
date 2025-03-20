@@ -4,7 +4,7 @@ import { CldVideoPlayer } from "next-cloudinary";
 import { reels } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion"; 
 import { videos } from "../constants";
-// import 'next-cloudinary/dist/cld-video-player.css';
+import 'next-cloudinary/dist/cld-video-player.css';
 
 const ReelsCard = function ({ index, url }) {
   return (
@@ -22,7 +22,7 @@ const ReelsCard = function ({ index, url }) {
           }}
         >
           {/* Google Drive embed iframe */}
-          <CldVideoPlayer style={{height:'31rem'}} width="1080" height="1650" src="qcnzx7oiy13azxvkcvwm" />
+          <CldVideoPlayer style={{height:'31rem'}} width="1080" height="1650" src={url} />
         </div>
       </div>
     </Tilt>
@@ -39,12 +39,13 @@ const VideosCard = function ({ index, url }) {
       <div className="relative w-full h-full">
         {/* Set the video to fill the container */}
         <div className="w-full h-full relative overflow-hidden" style={{ borderRadius: "1rem" }}>
-          <video
+          {/* <video
             src={url} // Use a direct video URL
             controls
             playsInline
             className="w-full h-full object-cover"
-          />
+          /> */}
+          <CldVideoPlayer width="1920" height="1080" src={url} />
         </div>
 
       </div>
